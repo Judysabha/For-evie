@@ -1,0 +1,110 @@
+body{
+    background:linear-gradient(135deg, #ffd6e7, #ff9fc5);
+    color:white;
+    font-family:Arial, sans-serif;
+    padding:40px; 
+    line-height:1.8;
+} 
+
+h1{ 
+    text-align:center;
+    color:#e75480; 
+    
+}
+
+h2{ 
+   color:#e75480;
+}
+.letter{
+    font-size:18px;
+    background:white; 
+    color:#333;
+    padding:40px;
+    border-radius:20px;
+    max-width:600px;
+    margin:auto;
+    box-shadow:0 10px 30px rgba (0,0,0,0.2);
+    animation:appear 2s ease;
+}
+
+@keyframes appear{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    
+    to{ 
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+ 
+    button{
+        background:e75480;
+        color:white;
+        border:none;
+        padding:15px 30px;
+        border-radius:15px;
+        font-size:16px;
+        cursor:pointer;
+        margin-top:20px;
+    }
+    
+    button:hover{
+        background:#d63c70;
+    }
+    
+    .photo{
+        background:#f8f8f8;
+        border:dashed #e75480;
+        border-radius:15px;
+        height:220px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:20px 0;
+        color:#888;
+        font-style:italic;
+    } 
+        
+        
+    .polaroid{
+        background:white;
+        padding:15px;
+        border-radius:15px;
+        box-shadow:0 8px 20px rgba(0,0,0,0.15);
+        width:230px;
+        margin:30px auto;
+        text-align:center;
+    }
+    
+    .polaroid img{
+        width:100%;
+        border-radius:10px;
+    }
+    
+    .caption{
+        margin-top:12px;
+        color:#666;
+        font-style:italic;
+    }
+    
+    
+    .left{
+        transform:rotate(-3deg);
+    }
+    
+    .right{
+        transform:rotate(3deg);
+    }
+    
+    .song p{
+        font-size:50px !important;
+        line-height:1.6;
+    }
+   
+    .song h3{
+        font-size:30px !important;
+        
+    }
+    
